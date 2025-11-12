@@ -782,6 +782,6 @@ body {
 GlobalLevel = $AJB.general.Game().shareLevel;
 </script>
 
-    <script type="text/javascript></script>
+    <script type="text/javascript"></script>
   </body>
 </html>
