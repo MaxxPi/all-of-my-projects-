@@ -32,9 +32,9 @@
     }
 
     /* Rotate buttons */
-    #leftBtn { transform: rotate(-90deg); }
-    #jumpBtn { transform: rotate(90deg); }
-    #rightBtn { transform: rotate(90deg); }
+    #leftBtn { transform: rotate(-360deg); }
+    #jumpBtn { transform: rotate(-90deg); }
+    #rightBtn { transform: rotate(360deg); }
   </style>
 </head>
 <body>
