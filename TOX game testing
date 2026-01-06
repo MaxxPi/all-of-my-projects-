@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,17 +22,250 @@
       display: inline-block;
       margin: 10px 20px;
       touch-action: none;
-
-      /* Use your base64 image */
       background-image: url("data:image/png;base64,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");
-
       background-size: cover;
       background-position: center;
     }
 
-    /* Rotate buttons */
     #leftBtn { transform: rotate(180deg); }
     #jumpBtn { transform: rotate(-90deg); }
+    #rightBtn { transform: rotate(360deg); }
+  </style>
+</head>
+<body>
+
+<canvas id="gameCanvas" width="500" height="500"></canvas>
+
+<div class="controls">
+  <div id="leftBtn" class="circleBtn"></div>
+  <div id="jumpBtn" class="circleBtn"></div>
+  <div id="rightBtn" class="circleBtn"></div>
+</div>
+
+<script>
+const canvas = document.getElementById("gameCanvas");
+const ctx = canvas.getContext("2d");
+
+// Map (# = air, 1 = block, ^ = death)
+const voxelMap = [
+  "#####",
+  "#####",
+  "###1#",
+  "##11#",
+  "#111#",
+  "#####",
+  "#####",
+  "#####",
+  "#####",
+  "^^^^^"
+];
+
+const TILE_SIZE = 50;
+const GRAVITY = 0.8;
+
+// Spawn on first "1" in "#111#"
+const spawnRow = 4;
+const spawnCol = 1;
+
+const player = {
+  x: spawnCol * TILE_SIZE + 5,
+  y: spawnRow * TILE_SIZE - 40,
+  width: 40,
+  height: 40,
+  vx: 0,
+  vy: 0,
+  onGround: false
+};
+
+const keys = { left:false, right:false, jump:false };
+
+// ⭐ CAMERA (with smoothing)
+const camera = {
+  x: 0,
+  y: 0,
+  ease: 0.1
+};
+
+function updateCamera() {
+  const targetX = player.x - canvas.width / 2 + player.width / 2;
+  const targetY = player.y - canvas.height / 2 + player.height / 2;
+
+  camera.x += (targetX - camera.x) * camera.ease;
+  camera.y += (targetY - camera.y) * camera.ease;
+}
+
+// Keyboard controls
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowRight" || e.key === "d") keys.right = true;
+  if (e.key === "ArrowLeft"  || e.key === "a") keys.left = true;
+  if (e.key === " " || e.key === "w" || e.key === "ArrowUp") keys.jump = true;
+});
+document.addEventListener("keyup", e => {
+  if (e.key === "ArrowRight" || e.key === "d") keys.right = false;
+  if (e.key === "ArrowLeft"  || e.key === "a") keys.left = false;
+  if (e.key === " " || e.key === "w" || e.key === "ArrowUp") keys.jump = false;
+});
+
+// Button binding helper
+function bindButton(id, onDown, onUp) {
+  const btn = document.getElementById(id);
+
+  btn.addEventListener("mousedown", onDown);
+  btn.addEventListener("mouseup", onUp);
+  btn.addEventListener("mouseleave", onUp);
+
+  btn.addEventListener("touchstart", e => {
+    e.preventDefault();
+    onDown();
+  }, { passive: false });
+
+  btn.addEventListener("touchend", e => {
+    e.preventDefault();
+    onUp();
+  }, { passive: false });
+}
+
+// Bind on-screen buttons
+bindButton("leftBtn",  () => keys.left = true,  () => keys.left = false);
+bindButton("rightBtn", () => keys.right = true, () => keys.right = false);
+bindButton("jumpBtn",  () => {
+  if (player.onGround) {
+    player.vy = -12;
+    player.onGround = false;
+  }
+}, () => {});
+
+// Tile lookup
+function getTileAtXY(x, y) {
+  const col = Math.floor(x / TILE_SIZE);
+  const row = Math.floor(y / TILE_SIZE);
+  if (row < 0 || row >= voxelMap.length || col < 0 || col >= voxelMap[0].length) return "#";
+  return voxelMap[row][col];
+}
+
+// Respawn
+function respawn() {
+  player.x = spawnCol * TILE_SIZE + 5;
+  player.y = spawnRow * TILE_SIZE - 40;
+  player.vx = 0;
+  player.vy = 0;
+}
+
+// Update loop
+function update() {
+  // Horizontal movement
+  if (keys.right) player.vx = 3;
+  else if (keys.left) player.vx = -3;
+  else player.vx = 0;
+
+  // Jump (keyboard)
+  if (keys.jump && player.onGround) {
+    player.vy = -12;
+    player.onGround = false;
+  }
+
+  // Gravity
+  player.vy += GRAVITY;
+
+  // Horizontal collision
+  let newX = player.x + player.vx;
+
+  if (player.vx > 0) {
+    const rightX = newX + player.width;
+    const topTile = getTileAtXY(rightX, player.y + 1);
+    const bottomTile = getTileAtXY(rightX, player.y + player.height - 1);
+    if (topTile === "1" || bottomTile === "1") {
+      newX = Math.floor(rightX / TILE_SIZE) * TILE_SIZE - player.width;
+    }
+  }
+
+  if (player.vx < 0) {
+    const leftX = newX;
+    const topTile = getTileAtXY(leftX, player.y + 1);
+    const bottomTile = getTileAtXY(leftX, player.y + player.height - 1);
+    if (topTile === "1" || bottomTile === "1") {
+      newX = Math.floor(leftX / TILE_SIZE + 1) * TILE_SIZE;
+    }
+  }
+
+  player.x = newX;
+
+  // Vertical collision
+  player.y += player.vy;
+  player.onGround = false;
+
+  if (player.vy >= 0) {
+    const bottomY = player.y + player.height;
+    const leftTile = getTileAtXY(player.x + 1, bottomY);
+    const rightTile = getTileAtXY(player.x + player.width - 1, bottomY);
+
+    if (leftTile === "1" || rightTile === "1") {
+      player.y = Math.floor(bottomY / TILE_SIZE) * TILE_SIZE - player.height;
+      player.vy = 0;
+      player.onGround = true;
+    }
+  }
+
+  // Death check
+  const bottomY = player.y + player.height;
+  const leftTile = getTileAtXY(player.x + 1, bottomY);
+  const rightTile = getTileAtXY(player.x + player.width - 1, bottomY);
+  if (leftTile === "^" || rightTile === "^") respawn();
+
+  // ⭐ Update camera
+  updateCamera();
+}
+
+// Draw loop
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Draw tiles with camera offset
+  for (let row = 0; row < voxelMap.length; row++) {
+    for (let col = 0; col < voxelMap[row].length; col++) {
+      const tile = voxelMap[row][col];
+      if (tile === "1") {
+        ctx.fillStyle = "#654321";
+        ctx.fillRect(
+          col * TILE_SIZE - camera.x,
+          row * TILE_SIZE - camera.y,
+          TILE_SIZE,
+          TILE_SIZE
+        );
+      } else if (tile === "^") {
+        ctx.fillStyle = "rgba(0,0,0,0)";
+        ctx.fillRect(
+          col * TILE_SIZE - camera.x,
+          row * TILE_SIZE - camera.y,
+          TILE_SIZE,
+          TILE_SIZE
+        );
+      }
+    }
+  }
+
+  // Draw player with camera offset
+  ctx.fillStyle = "red";
+  ctx.fillRect(
+    player.x - camera.x,
+    player.y - camera.y,
+    player.width,
+    player.height
+  );
+}
+
+// Game loop
+function gameLoop() {
+  update();
+  draw();
+  requestAnimationFrame(gameLoop);
+}
+gameLoop();
+
+</script>
+
+</body>
+</html>
     #rightBtn { transform: rotate(360deg); }
   </style>
 </head>
