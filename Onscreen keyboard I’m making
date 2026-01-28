@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
 <div class="water-container" id="ripple-area">
   <p>Click me</p>
 </div>
@@ -15,14 +18,14 @@
   user-select: none;
 }
 
-/*  */
+
 .ripple {
   position: absolute;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.4);
   transform: scale(0);
   animation: ripple-effect 1.5s linear;
-  pointer-events: none; /* Allows clicking through the ripple */
+  pointer-events: none; 
 }
 
 @keyframes ripple-effect {
@@ -58,3 +61,5 @@ setTimeout(() => {
   container.appendChild(ripple);
 });
 </script>
+</body> 
+</html>
